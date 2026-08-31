@@ -11,6 +11,7 @@ def add_product(name, price, quantity=1):
         print(f"Added {name} to cart.")
 
 
+
 def modify_quantity(name, new_quantity):
     if name in cart:
         if new_quantity > 0:
