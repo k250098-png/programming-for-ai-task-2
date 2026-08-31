@@ -15,6 +15,7 @@ for tx in transactions:
 
 unique_transactions = set(transactions)
 
+
 print("--- Transaction Processing ---")
 print("Unique Transactions:", list(unique_transactions))
 print("Duplicate Transactions Identified:", list(duplicates))
